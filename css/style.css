@@ -17,9 +17,27 @@ h2 {
 }
 
 h2:hover {
-  color: #fff;
+  color: grey;
   text-shadow: 0 0 5px #03e9f4,
    0 0 25px #03e9f4,
    0 0 50px #03e9f4,
    0 0 100px #03e9f4;
+}
+
+.class {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: lightblue;
+  letter-spacing:5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.class:hover {
+  color: blue;
+  text-shadow: 0 0 5px blue,
+   0 0 25px blue,
+   0 0 50px blue,
+   0 0 100px blue;
 }
